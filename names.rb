@@ -1,13 +1,6 @@
-first = "John"
-middle = "Michael"
-last = "Murphy"
-
-full = "#{first} #{middle} #{last}"
-
-puts "My first name is #{first}"
-
-puts "My middle name is #{middle}"
-
-puts "My last name is #{last}"
-
-puts "My full name is #{full}"
+print "What is your first name?"
+puts "> "
+first = $stdin.gets.chomp
+puts "What is your last name?"
+last = $stdin.gets.chomp
+print "So you're full name is #{first} #{last}? Cool!"

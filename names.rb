@@ -1,13 +1,13 @@
-def name
-	[first, middle, last]
-end
-
 first = "John"
 middle = "Michael"
 last = "Murphy"
 
-puts "#{first}"
+full = "#{first} #{middle} #{last}"
 
-puts "#{middle}"
+puts "My first name is #{first}"
 
-puts "#{last}"
+puts "My middle name is #{middle}"
+
+puts "My last name is #{last}"
+
+puts "My full name is #{full}"
